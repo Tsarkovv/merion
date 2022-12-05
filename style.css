@@ -67,6 +67,7 @@ font-weight: 600;
   border-radius: 4px;
   padding: 16px 10px 16px 10px;
   margin-top: 20px;
+  cursor: pointer;
 }
 .purple{
   background-color: #706EEE;
@@ -99,6 +100,7 @@ font-weight: 600;
   border-radius: 6px;
   background-color: #FFFFFF;
   padding: 11px 16px 11px 16px;
+  cursor: pointer;
 }
 .flex{
   display: flex;
@@ -158,6 +160,7 @@ font-weight: 600;
   text-align: center;
 }
 .expert{
+  display: flex;
   padding-bottom: 70px;
 }
 .expert_headning{
@@ -301,4 +304,180 @@ font-weight: 600;
 .stock_link{
   color: #605DEC;
   text-decoration: underline;
+}
+.purple_description_mobile{
+  display:none;
+}
+.mob{
+  display: none;
+}
+@media (max-width: 1024px){
+  .block{
+    width: 896px;
+    margin: auto;
+  }
+  .header_heading{
+    font-size: 48px;
+  }
+  .header_text{
+    font-size: 22px;
+  }
+  .feature{
+    width: 30%;
+    margin-right: 77px;
+  }
+  .flex{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .feature_icon{
+    display: none;
+  }
+  .expert_photo, .expert_photo img{
+    width: 432px;
+    height: 432px;
+  }
+  .purple_description_mobile{
+    display: flex;
+    background-color: #605DEC;
+    border-radius: 20px;
+    padding: 8px 0;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+  .purple_description{
+    display: none;
+  }
+  .purple_description_text{
+    padding: 22px 0;
+  }
+  .purple_icon, .purple_icon img{
+    width: 65px;
+    height: 56px;
+  }
+  .expert_text{
+    display: flex;
+  }
+  .program_item{
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  .program_list{
+    flex-wrap: wrap;
+  }
+  .heading_gifts{
+    justify-content: flex-start;
+  }
+  .row_heading_gifts{
+    width: 100%;
+  }
+  .sale_p{
+    text-align: center;
+  }
+  .test{
+    width: 584px;
+    margin-right: 300px;
+  }
+  .p30{
+    display: none;
+  }
+  .mob{
+
+    display: block;
+  }
+  .desk{
+    display: none;
+  }
+}
+@media (min-width: 320px){
+  .block{
+    width: 256px;
+  }
+  .header_heading{
+    font-size: 24px;
+  }
+  .header_text{
+    font-size: 16px;
+  }
+  .heading_btn{
+    width: 100%;
+    font-size: 20px;
+  }
+  .sale_title{
+    font-size: 24px;
+  }
+  .sale_text{
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .sale_btn{
+width: 100%;
+  }
+  .sale_btnd{
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .features_heading{
+    font-size: 24px;
+    width: 100%;
+  }
+  .features_head{
+    flex-direction: column-reverse;
+  }
+  .features_logo{
+    padding-bottom: 20px;
+  }
+  .feature{
+    margin: 0;
+    width: 100%;
+  }
+  .expert_photo, .expert_photo img{
+    width: 255px;
+    height: 255px;
+  }
+  .expert{
+    flex-direction: column;
+  }
+  .expert_text__content{
+    margin: 0;
+  }
+  .expert_name{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 24px
+  }
+  .expert_description{
+    font-size: 16px;
+  }
+  .purple_description_mobile{
+    flex-direction: column;
+  }
+  .purple_description_text{
+    font-size: 16px;
+    padding: 0 32px;
+  }
+  .purple_icon{
+    padding-bottom: 20px;
+  }
+  .row_heading{
+    font-size: 24px;
+  }
+  .program_list{
+    flex-direction: column;
+  }
+  .program_item{
+    width: 100%;
+  }
+  .heading_sale{
+    font-size: 24px;
+  }
+  .sale_list{
+    flex-direction: column;
+  }
+  .sale_arrow{
+    display: none;
+  }
+  .sale_item{
+    padding-bottom: 50px;
+  }
 }
